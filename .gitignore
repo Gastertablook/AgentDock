@@ -1,0 +1,39 @@
+# ===== Java / Maven =====
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+.idea/
+*.iml
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+
+# ===== Node / 博客 =====
+node_modules/
+blog/.vitepress/cache/
+blog/.vitepress/dist/
+
+# ===== IDE / 系统 =====
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ===== 环境与密钥 =====
+.env
+.env.local
+*.pem
+
+# ===== 运行时产物 =====
+volumes/
+*.log
+
+# ===== 隐私材料（不入库） =====
+docs/private/
